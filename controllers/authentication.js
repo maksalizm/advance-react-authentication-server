@@ -5,7 +5,7 @@ exports.signup = function(req, res, next) {
 
     // See if a user with the given email exists
     User.findOne({ email }, (err, existingUser) => {
-        
+
     })
 
 
